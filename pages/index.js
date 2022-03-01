@@ -43,7 +43,7 @@ export default function Home() {
          </Header>
           {/* ActionButton */}
          <ActionButtons>  
-            <Link href="/search">
+            <Link href="/search" passHref>
              <ActionButton> 
                 <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png"/>
                 Ride </ActionButton>
