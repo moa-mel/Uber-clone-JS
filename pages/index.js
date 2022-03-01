@@ -24,7 +24,7 @@ export default function Home() {
           router.push("/login")
         }
       });
-    }, [])
+    }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
      <Wrapper>

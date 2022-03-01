@@ -14,7 +14,7 @@ const Login = () => {
                 router.push('/')
             }
         })
-    }, [])
+    }, [])  // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <Wrapper>
