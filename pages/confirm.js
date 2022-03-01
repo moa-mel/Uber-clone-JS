@@ -81,7 +81,7 @@ const Confirm = () => {
   )
 }
 
-export default confirm
+export default Confirm
 
 const Wrapper = tw.div`
   flex h-screen flex-col
