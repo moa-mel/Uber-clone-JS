@@ -6,7 +6,7 @@ import { accessToken } from 'mapbox-gl'
 import RideSelector from "./components/RideSelector"
 import Link from 'next/link'
 
-const confirm = () => {
+const Confirm = () => {
   const router = useRouter()
   const { pickup, dropoff } = router.query
 
